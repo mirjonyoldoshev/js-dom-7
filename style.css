@@ -1,0 +1,97 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.wrapper {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     gap: 100px;
+}
+.video {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+}
+#title {
+     margin-top: 20px;
+     font-size: 24px;
+}
+.video video {
+     width: 100%;
+     max-width: 700px;
+     border-radius: 5px;
+}
+.buttons {
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     justify-content: center;
+}
+
+.btn, .btn i {
+     color: gray;
+     font-size: 40px;
+     padding-inline: 20px;
+     background-color: transparent;
+     border: none;
+     transition: .5s ease-in-out;
+}
+.btn i:hover {
+     color: black;
+}
+.bi-pause-fill {
+     display: none;
+}
+.list {
+     height: 100vh;
+     max-width: 400px;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     padding-top: 50px;
+     display: flex;
+     gap: 10px;
+     flex-wrap: wrap;
+     background-color: darkslategray;
+}
+span {
+     width: 100%;
+     max-width: 200px;
+     background-color: white;
+     padding: 20px;
+}
+.range {
+     margin-block: 20px;
+     width: 70%;
+}
+#videoRange {
+     outline: none;
+     width: 100%;
+}
+#currentTime {
+     font-size: 20px;
+     text-align: right;
+     margin-top: 20px;
+}
+.images-group {
+     max-width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     pointer-events: none;
+}
+h2 {
+     text-align: center;
+     font-size: 18px;
+     margin-top: 10px;
+     pointer-events: none;
+}
